@@ -1,1 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body{
+    background: black;
+}
+h1{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color:greenyellow;
+    text-align: center;
+
+}
+
+h2{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: cyan;
+    text-align: center;
+    border: 3px solid cyan;
+    border-radius: 15px;
+    max-width: 300px;
+    margin: auto;
+
+}
+h2:hover{
+    color: chartreuse;
+    border: 5px solid chartreuse;
+}
+
