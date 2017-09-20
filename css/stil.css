@@ -1,5 +1,6 @@
 body{
-    background: black;
+background: black;
+    
 }
 h1{
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -14,11 +15,12 @@ h2{
     text-align: center;
     border: 3px solid cyan;
     border-radius: 15px;
-    max-width: 300px;
+    max-width: 350px;
     margin: auto;
+    
 
 }
 h2:hover{
     color: chartreuse;
-    border: 10px solid chartreuse;
+    border: 5px solid chartreuse;
 }
