@@ -1,0 +1,33 @@
+body{
+    background-color: #7accc8;
+
+    font-family: sans-serif;
+}
+
+.”pakker”{
+    width: 900px;
+    margin: auto;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+h1{
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0px;
+}
+h2{
+    color: #a3d39c;
+    text-align: center;
+    font-size: 18px;
+}
+h3{
+    color: #eb7260;
+}
+p{
+    color: #35404f;
+}
+image{
+    display: block;
+    margin: auto;
+}
