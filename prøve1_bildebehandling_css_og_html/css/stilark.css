@@ -36,16 +36,15 @@ h3{
     color: white;
 }
 
-.ul{
-    color: red;
-}
-.ol{
+ul{
     color: red;
 }
 
-td{
-    width: 10px;
-    height: 10px;
+ol{
+    color: red;
 }
+
+
+
 
 
