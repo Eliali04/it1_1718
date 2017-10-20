@@ -1,3 +1,20 @@
 h1{
    color: #28abe3;
+   text-align: center;
+   background: black;
+   font-size: 100px;
+}
+
+h2{
+   color: #28abe3;
+}
+
+.oppgave{
+   width: 1000px;
+   padding: 50px;
+   background-color: black;
+   min-height: 300px;
+   margin: 80px auto;
+   position: relative;
+
 }
