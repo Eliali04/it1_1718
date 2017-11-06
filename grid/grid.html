@@ -24,27 +24,33 @@
     }
 
     div.header{
-        background-color: #a3d39c;
+        background-color: #45A1FF;
         grid-area: header;
+        color: whitesmoke;
+
     }
 
     div.nav{
         grid-area: nav;
-        background-color: chartreuse;
+        background-color: #5CADFF;
 
     }
 
 
     div.main{
-        background-color: #4aaaa5;
+        background-color: #73B9FF;
         grid-area: main;
+        padding: 40px;
+        text-align: left;
 
     }
 
     ul{
         list-style-type: none;
-       
-       
+
+    }
+    ul li{
+        display: inline;
     }
 
     ul a{
@@ -56,28 +62,30 @@
         color: #28abe3;
         font-weight: bold;
         text-decoration: none;
-        background-color: #db3340;
+        background-color: #D0E7FF;
         
         
     }
 
     ul a:hover {
-        background-color: #a3d39c;
+        background-color: #8BC4FF;
     }
 
     div.aside1{
-        background-color: #db3340;
+        background-color: #A2D0FF;
         grid-area: aside1;
     }
 
     div.aside2{
-        background-color: #28abe3;
+        background-color: #B9DCFF;
         grid-area: aside2;
     }
 
     div.footer{
-        background-color: #b89115;
+        background-color: #D0E7FF;
         grid-area: footer;
+        padding: 40px;
+        text-align: left;
     }
 
     @media (min-width: 1000px){
@@ -93,6 +101,11 @@
                     "nav      main aside2"
                     "footer   footer footer";
         }
+ }
+
+ div.main p::first-letter{
+    font-size: 200%;
+     color: white;
  }
 
 </style>
@@ -113,17 +126,20 @@
 
 <nav>
     <ul>
-        <li><a href="lmeny1.html">link 1</a></li>
         <br>
-        <li><a href="lmeny2.html">link 2</a></li>
         <br>
-        <li><a href="lmeny3.html">link 3</a></li>
         <br>
-        <li><a href="lmeny1.html">link 4</a></li>
         <br>
-        <li><a href="lmeny1.html">link 5</a></li>
+        <li><a href="http://bordtennis.no/">Bordtennis</a></li>
         <br>
-        <li><a href="lmeny1.html">link 6</a></li>
+        <li><a href="http://bordtennis.no/ranking/?sp=6097">Ranking</a></li>
+        <br>
+        <li><a href="https://snl.no/Norges_h%C3%B8yeste_fjelltopper">Fjell</a></li>
+        <br>
+        <li><a href="https://www.artsdatabanken.no/KartleggingNiN">Fjellbeskrivelse</a></li>
+        <br>
+        <li><a href="http://www.hjelsetfram.no/index.php?artID=558">I bunn og grunn</a></li>
+        <br>
     </ul>
 </nav>
 
