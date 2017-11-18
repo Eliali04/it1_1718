@@ -1,0 +1,30 @@
+body{
+
+    background-color: teal;
+
+}
+.boks{
+    border: solid darkred;
+    width: 1000px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.nrl{
+    border: orange solid 70px;
+    border-radius: 100%;
+    background-color: orange;
+    position: absolute;
+    top: 57px;
+    left: 150px;
+}
+
+.hallaballa{
+    position: absolute;
+    top: 50px;
+    left: 207px;
+    font-size: 50px;
+}

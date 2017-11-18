@@ -1,0 +1,11 @@
+body {
+    background: lightcoral;
+    font-family: sans-serif;
+}
+
+h1 {
+    border: 3px solid blue;
+    text-align: center;
+    background: whitesmoke;
+}
+

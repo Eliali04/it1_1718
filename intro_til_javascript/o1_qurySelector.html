@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>querySelector</title>
+</head>
+<body>
+
+<style>
+
+
+    .red{
+        color: white;
+        background-color: black;
+    }
+
+    .green{
+        color: green;
+    }
+
+    .blue{
+        color: blue;
+    }
+
+
+</style>
+
+        <div id="boks"> Hei, </div>
+
+        <div id="tall"></div>
+
+        <script>
+            document.querySelector('#boks').innerHTML += "Molde vgs.";
+            //løkke eller for-løkke
+
+            for(var i = 1; i<=1000; i++)
+
+            {
+                if(i%3==0)
+                document.querySelector('#boks').innerHTML += "<span class='red'>" + i + "</span>"+ " ";
+
+
+
+                else{
+                    document.querySelector('#boks').innerHTML += "<span class='blue'>" + i + "</span>"+ " ";
+
+                }
+
+                else{
+
+            }
+
+                if(i%10==0){
+                    document.querySelector('#boks').innerHTML += "<br>";
+                }
+
+
+
+
+
+            }
+
+
+
+
+
+
+        </script>
+
+
+</body>
+</html>
