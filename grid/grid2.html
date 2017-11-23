@@ -5,39 +5,183 @@
     <title>Grid</title>
 
     <style>
+
+        body{
+            margin: 0;
+        }
+
         div.grid{
             display: grid;
+            text-align: center;
+            grid-template-columns: 1fr;
             grid-template-areas:
                     "header"
+                    "nav"
                     "main"
-                    "aside";
+                    "aside1"
+                    "aside2"
+                    "footer";
+        }
+
+        div.header{
+            background-color: #191919;
+            grid-area: header;
+            color: whitesmoke;
+
+        }
+
+        div.nav{
+            grid-area: nav;
+            background-color: #1F487E;
+
+        }
+
+
+        div.main{
+            background-image: url("http://longwallpapers.com/Desktop-Wallpaper/winter-nature-wallpapers-hd-resolution-For-Desktop-Wallpaper.jpg"), url("http://longwallpapers.com/Desktop-Wallpaper/winter-nature-wallpapers-hd-resolution-For-Desktop-Wallpaper.jpg");
+            grid-area: main;
+            padding: 40px;
+            text-align: left;
+
+        }
+
+        ul{
+            list-style-type: none;
+
+        }
+        ul li{
+            display: inline;
+        }
+
+        ul a{
+            display: block;
+            width: 120px;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 2px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            background-color:  #191919;
 
 
         }
 
+        ul a:hover {
+            background-color: #8BC4FF;
+        }
+
+        div.aside1{
+            background-color:  #1F487E;
+            grid-area: aside1;
+            text-align: left;
+            padding: 30px;
+            color: white;
+
+        }
+
+        div.aside2{
+            background-color: #1F487E;
+            grid-area: aside2;
+            color: white;
+            padding: 30px;
+            text-align: left;
+            color: white;
+        }
+
+        div.footer{
+            background-color:  #191919;
+            grid-area: footer;
+            padding: 40px;
+            text-align: left;
+            color: white;
+        }
+
+        @media (min-width: 1000px){
+
+
+
+            div.grid{
+                grid-template-columns: 1fr 3fr 1fr;
+                grid-template-areas:
+                        "header header header"
+                        "nav      main aside1"
+                        "nav      main aside2"
+                        "nav      main aside2"
+                        "footer   footer footer";
+            }
+        }
+
+
+
     </style>
-
-
 
 </head>
 <body>
 
+
+
 <div class="grid">
 
-
-
     <div class="header">
-        hei
+        <h1>Elias Ali</h1>
     </div>
+
+
+    <div class="nav">
+
+        <nav>
+            <ul>
+                <br>
+                <br>
+                <br>
+                <li><a href="../Oppgaver_bok/Oppgaver_nettside.html">Oppgaver</a></li>
+                <br>
+                <li><a href="../IT_HTML/Meny/sjema.html">Skjema</a></li>
+                <br>
+                <li><a href="https://snl.no/Norges_h%C3%B8yeste_fjelltopper">Tabell</a></li>
+                <br>
+                <li><a href="https://www.artsdatabanken.no/KartleggingNiN">Lister</a></li>
+                <br>
+                <li><a href="http://www.hjelsetfram.no/index.php?artID=558">I bunn og grunn</a></li>
+                <br>
+            </ul>
+        </nav>
+
+    </div>
+
     <div class="main">
-        på
-    </div>
-    <div class="aside">
 
     </div>
 
+    <div class="aside1">
+        <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia.
+        </p>
+    </div>
+
+    <div class="aside2">
+        <p>
+            Looked up one of the more obscure Latin words,
+            consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
+            classical literature, discovered the undoubtable source.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>
+            Tllf: 93611742
+            <br>
+            Epost: Eliasmeringdal@hotmail.com
+        </p>
+    </div>
 
 </div>
+
+
 
 </body>
 </html>
