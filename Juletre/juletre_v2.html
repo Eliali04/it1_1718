@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Juletre</title>
+    <style>
+        .myCanvas{
+            width: 800px;
+            height: 800px;
+    </style>
+</head>
+<body>
+
+    <div class="myCanvas"></div>
+    <script>
+        var c = document.querySelector('.myCanvas');
+        var ctx = c.getContext("2d");
+
+        ctx.moveTo(400, 0);
+        ctx.lineTo(100, 500);
+        ctx.stroke();
+    </script>
+</body>
+</html>

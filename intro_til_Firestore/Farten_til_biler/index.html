@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register over farten til biler</title>
+</head>
+<body>
+
+<div class="pakker">
+
+    <div class="hadder">
+
+        <h1>Register over farten til biler</h1>
+
+    </div>
+
+    <div class="klikkebar">
+        <div class="bar"></div>
+        <div class="topscore">størst fart</div>
+    </div>
+
+    <input type="number" placeholder="fart" class="fart" required>
+    <button class="send">send</button>
+
+    <div class="liste">
+        <h2>Topp 20</h2>
+
+        <table width="100%">
+            <thead>
+            <tr>
+                <th>Rangering</th><th>Bilnavn</th><th>Fart</th>
+            </tr>
+            </thead>
+            <tbody class="fartsliste">
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
